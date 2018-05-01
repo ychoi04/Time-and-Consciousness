@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+html {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+.audio {
+    display: none;
+}
+
+.container {
+    background: linear-gradient(#e6c2f2, #f5919a);
+    height: 175vw;
+}
+
+.container-2 {
+    background: linear-gradient(#bbd0a2, #1ebab5);
+    height: 175vw;
+}
+
+.container-3 {
+    background: linear-gradient(#ffa497, #ffd780);
+    height: 175vw;
+}
+
+.pink-block-1 {
+    width: 30vw;
+    position: absolute;
+    top: 10vw;
+    left: 60vw;
+}
+
+#pink-struc-1 {
+    width: 26.7vw;
+    position: absolute;
+    top: 9.6vw;
+    left: 63.67vw;
+}
+
+#egg-1 {
+    width: 7vw;
+    position: absolute;
+    top: 41.5vw;
+    left: 82.8vw;
+    cursor: pointer;
+}
+
+#welcome {
+    position: absolute;
+    font-size: 8vw;
+    color: white;
+    top: 17vw;
+    left: 25vw;
+    transition: opacity 1.5s linear;
+}
+
+#description {
+    position: absolute;
+    color: white;
+    top: 17vw;
+    left: 25vw;
+    transition: opacity 1.5s linear;
+    text-transform: none;
+    letter-spacing: .087vw;
+    transition: opacity 1.5s linear;
+}
+
+#pink-block-2 {
+    width: 32vw;
+    position: absolute;
+    top: 8vw;
+    left: 10vw;
+    opacity: 0;
+    transition: opacity 2s linear;
+}
+
+#pink-struc-2 {
+    width: 28.8vw;
+    position: absolute;
+    top: 8vw;
+    left: 10vw;
+    opacity: 0;
+    transition: opacity 2s linear;
+}
+
+#press-1 {
+    color: white;
+    position: absolute;
+    top: 33vw;
+    left: 39.1vw;
+    transform: skewY(150deg);
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 2s linear;
+}
+
+#pink-block-3 {
+    width: 81vw;
+    position: absolute;
+    top: 50vw;
+    left: 9vw;
+    opacity: 0;
+    transition: opacity 2.2s linear;
+    transition-delay: .2s;
+}
+
+#egg-2 {
+    width: 7vw;
+    position: absolute;
+    top: 70vw;
+    left: 46vw;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 2.5s linear;
+    transition-delay: .2s;
+}
+
+#trick-eye {
+    font-size: 1.1vw;
+    color: white;
+    position: absolute;
+    top: 59vw;
+    left: 57.8vw;
+    transform: skewY(30deg);
+    opacity: 0;
+    transition: opacity 2s linear;
+    cursor: default;
+}
+
+#cube-1 {
+    width: 8.15vw;
+    position: absolute;
+    top: 92vw;
+    left: 81.85vw;
+    opacity: 0;
+    transition: opacity 2s linear;
+    cursor: pointer;
+}
+
+#pink-block-4 {
+    width: 32.5vw;
+    position: absolute;
+    top: 108vw;
+    left: 9vw;
+    opacity: 0;
+    transition: opacity 2.2s linear;
+    transition-delay: .2s;
+}
+
+#illusions {
+    font-size: 1.2vw;
+    color: white;
+    position: absolute;
+    top: 126vw;
+    left: 10vw;
+    transform: skewY(30deg);
+    opacity: 0;
+    transition: opacity 2s linear;
+    cursor: default;
+}
+
+#from {
+    position: absolute;
+    font-size: 5vw;
+    color: white;
+    top: 135vw;
+    left: 48vw;
+    opacity: 0;
+    transition: opacity 2s linear;
+    cursor: pointer;
+}
+
+#pink-block-5 {
+    position: absolute;
+    width: 81vw;
+    top: 138vw;
+    left: 10vw;
+    opacity: 0;
+    transition: opacity 2s linear;
+}
+
+#egg-3 {
+    width: 7vw;
+    position: absolute;
+    top: 137vw;
+    left: 56.8vw;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 2.5s linear;
+    transition-delay: .2s;
+}
+
+#character-1 {
+    width: 5.5vw;
+    position: absolute;
+    top: 139vw;
+    left: 84.3vw;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 1s linear;
+    transition-delay: .2s;
+    z-index: 1;
+    animation: bounce .5s alternate infinite ease-in;
+}
+
+#shadow-1 {
+    width: 9vw;
+    position: absolute;
+    top: 139.9vw;
+    left: 82.6vw;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 2.5s linear;
+    transition-delay: .2s;
+}
+
+#next {
+    position: absolute;
+    color: white;
+    top: 167vw;
+    left: 84.5vw;
+    transition: opacity 1.5s linear;
+    letter-spacing: .087vw;
+    opacity: 0;
+    transition: opacity 1.5s linear;
+}
+
+@keyframes bounce {
+    0% {
+        top: 139vw;
+    }
+    100% {
+        top: 139.5vw;
+    }

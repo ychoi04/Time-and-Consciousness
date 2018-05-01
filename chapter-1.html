@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Time and Consciousness</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function click1() {
+            document.getElementById("pink-block-2").style.opacity = "1";
+            document.getElementById("pink-struc-2").style.opacity = "1";
+            document.getElementById("press-1").style.opacity = "1";
+            document.getElementById("welcome").style.opacity = "0";
+            document.getElementById("description").style.opacity = "0";
+        }
+
+        function click2() {
+            document.getElementById("pink-block-3").style.opacity = "1";
+            document.getElementById("egg-2").style.opacity = "1";
+        }
+
+        function click3() {
+            document.getElementById("trick-eye").style.opacity = "1";
+            document.getElementById("cube-1").style.opacity = "1";
+        }
+
+        function click4() {
+            document.getElementById("cube-1").style.opacity = "0";
+            document.getElementById("pink-block-4").style.opacity = "1";
+            document.getElementById("illusions").style.opacity = "1";
+            document.getElementById("from").style.opacity = "1";
+        }
+
+        function click5() {
+            document.getElementById("from").style.opacity = "0";
+            document.getElementById("pink-block-5").style.opacity = "1";
+            document.getElementById("egg-3").style.opacity = "1";
+            document.getElementById("from").style.zIndex = "-1";
+        }
+
+        function click6() {
+            document.getElementById("character-1").style.opacity = "1";
+            document.getElementById("shadow-1").style.opacity = "1";
+        }
+
+        function click7() {
+            document.getElementById("next").style.opacity = "1";
+        }
+
+    </script>
+</head>
+
+<body>
+    <audio class="audio" controls autoplay>
+      <source src="Sound/audio-1.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <a href="index.html">Home</a>
+    <a href="chapter-1.html">Adventure 1</a>
+    <a href="chapter-2.html">Adventure 2</a>
+    <a href="chapter-3.html">Adventure 3</a>
+    <a href="credits.html">Credits</a>
+    <div class="container">
+        <img class="pink-block-1" src="images/pink-block-1.svg" alt="block">
+        <img id="pink-struc-1" src="Images/pink-structure-1.svg" alt="rules">
+        <img id="egg-1" src="Images/egg-1.svg" alt="egg" onclick="click1()">
+        <div id="welcome">Chapter 1</div>
+        <div id="description">– Click on the different elements to find hidden hints –</div>
+        <img id="pink-block-2" src="Images/pink-block-2.svg" alt="block">
+        <img id="pink-struc-2" src="Images/pink-structure-2.svg" alt="rules">
+        <div id="press-1" onclick="click2()"><a href="#egg-1">it's ...</a></div>
+        <img id="pink-block-3" src="Images/pink-block-3.svg" alt="block">
+        <img id="egg-2" src="Images/egg-1.svg" alt="egg" onclick="click3()">
+        <div id="trick-eye">a<br>matter<br>of <br>tricking <br>the eye.</div>
+        <img id="cube-1" src="Images/cube-1.svg" alt="cube" onclick="click4()">
+        <img id="pink-block-4" src="Images/pink-block-4.svg" alt="cube">
+        <div id="illusions">Illusions can reveal everything</div>
+        <div id="from" onclick="click5()"><a href="#from">from how we process<br>time and space to our perceptive experience.</a></div>
+        <img id="pink-block-5" src="Images/pink-block-5.svg" alt="block">
+        <img id="egg-3" src="Images/egg-1.svg" alt="egg" onclick="click6()">
+        <img id="character-1" src="Images/character-1.svg" alt="character" onclick="click7()">
+        <img id="shadow-1" src="Images/shadow-1.svg" alt="shadow">
+        <a id="next" href="chapter-2.html">next stage</a>
+    </div>
+
+</body>
+
+</html>
